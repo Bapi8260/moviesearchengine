@@ -10,7 +10,7 @@ navigate(`find/${value}`)
   }
   return (
     <div className='header'>
-      <h2 className='heading'>HD hub4u</h2>
+      <h2 className='heading'>Movies4u</h2>
       <form onSubmit={result}>
         <input type='search' onChange={(p)=>setValue(p.target.value)} placeholder='Enter movie name'></input>
       </form>
